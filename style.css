@@ -1,0 +1,111 @@
+.PARENT{
+    width: 163.50px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 3px 3px 30px #777171;
+    
+}
+.PARENT img{
+    width: 100%;
+    
+}
+.discount{
+    background-color:#6E2594 ;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size:12px;
+    width: 96.3px;
+    height: 22px;
+    position: relative;
+    position: absolute;
+    top: 2%;
+    
+}
+.discount span{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    
+    
+}
+.image{
+    box-sizing: border-box;
+    
+    margin: 0;
+}
+.name{
+    padding: 15px;
+
+}
+.name h4{
+    
+    left: 20%;
+    margin: 0 0 15px;
+    font-weight:600px;
+}
+.name h4:hover{
+    color:#ef4a23 ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul{
+    padding-left: 0;
+}
+.name ul{
+    color: grey;
+    font-size: 13px
+    
+}
+ul li{
+    margin: 8px;
+    font-size: 13px;
+}
+
+.new{
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10%;
+}
+.old{
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 12px;
+    color:#666 ;
+
+}
+.test{
+    background-color:#F2F4F8 ;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 14px;
+    cursor: pointer;
+    line-height: 34px;
+    color: #3749BB;
+    margin: 10%; 
+    text-align: center;
+}
+.test:hover{
+    color: white;
+    background-color: #3749BB;
+}
+.compare{
+    border-radius: 4px;
+    color:grey ;
+    cursor: pointer;
+    margin-top: 7px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 14px;
+    text-align: center;
+    
+
+}
+.compare:hover{
+    background-color: #F2F4F8;
+    color: black;
+}
